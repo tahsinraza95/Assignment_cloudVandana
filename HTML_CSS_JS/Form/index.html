@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <div>
+        <form action="" method="">
+            <h1 id="main-heading">Customer Survey Form</h1>
+            <label for="firstName">First Name</label>
+            <input id="firstName" name="fname" type="text" required>
+            <label for="lastName">Last Name</label>
+            <input id="lastName" name="lname" type="text" required>
+            <label for="DOB">Date of Birth</label>
+            <input id="DOB" name="dob" type="date" required>
+            <label for="country">Country</label>
+            <select name="country" id="country" required>
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="Canada">Canada</option>
+                <option value="China">China</option>
+            </select>
+            <div id="gender">
+                Gender:
+                <input type="radio" id="male" name="gender" value="Male" required>Male
+                <input type="radio" id="female" name="gender" value="Female" required>Female
+                <input type="radio" id="other" name="gender" value="Others" required>Others
+            </div>
+            <label for="profession">Profession</label>
+            <input id="profession" name="profession" type="text" required>
+            <label for="email">Email</label>
+            <input id="email" name="email" type="text" required>
+            <label for="mobNum">Mobile Num.</label>
+            <input id="mobNum" name="Mobile" type="number" required>
+
+            <button id="sbm" type="submit">Submit</button>
+            <button id="reset" type="button">Reset</button>
+        </form>
+
+    </div>
+
+
+
+    <script type="text/Javascript" src="./script.js"></script>
+</body>
+
+</html>
